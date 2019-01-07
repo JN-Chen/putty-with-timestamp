@@ -1,0 +1,18 @@
+charset/slookup.o: charset/slookup.c /usr/include/stdc-predef.h \
+ charset/charset.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.9.2/include/stddef.h \
+ charset/internal.h charset/enum.c charset/sbcsdat.c charset/utf8.c
+
+/usr/include/stdc-predef.h:
+
+charset/charset.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.9.2/include/stddef.h:
+
+charset/internal.h:
+
+charset/enum.c:
+
+charset/sbcsdat.c:
+
+charset/utf8.c:
