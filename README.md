@@ -1,5 +1,5 @@
 # putty-with-timestamp
-> record timestamp in putty log
+> record timestamp in putty log  
 this is work for linux not for windows yet.
 - configure
 - make
