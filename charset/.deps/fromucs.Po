@@ -1,0 +1,12 @@
+charset/fromucs.o: charset/fromucs.c /usr/include/stdc-predef.h \
+ charset/charset.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.9.2/include/stddef.h \
+ charset/internal.h
+
+/usr/include/stdc-predef.h:
+
+charset/charset.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.9.2/include/stddef.h:
+
+charset/internal.h:

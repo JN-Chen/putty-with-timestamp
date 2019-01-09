@@ -1,0 +1,8 @@
+libversion_a-version.o: version.c /usr/include/stdc-predef.h empty.h \
+ version.h
+
+/usr/include/stdc-predef.h:
+
+empty.h:
+
+version.h:
