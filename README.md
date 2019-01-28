@@ -8,5 +8,4 @@ this is work for linux and windows.
 - run ./putty
 ## windows
 work in vs2019  
-
-windows/msvc/putty/release/putty.exe
+binary at windows/msvc/putty/release/putty.exe
