@@ -11,7 +11,7 @@
 #include "putty.h"
 #include "ssh.h"
 #include "network.h"
-
+/*
 int platform_ssh_share(const char *name, Conf *conf,
                        Plug downplug, Plug upplug, Socket *sock,
                        char **logtext, char **ds_err, char **us_err,
@@ -23,3 +23,4 @@ int platform_ssh_share(const char *name, Conf *conf,
 void platform_ssh_share_cleanup(const char *name)
 {
 }
+*/

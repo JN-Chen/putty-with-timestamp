@@ -16,7 +16,7 @@
 
 const char ver[] = TEXTVER;
 const char sshver[] = SSHVER;
-const char commitid[] = SOURCE_COMMIT;
+const char commitid[] = "jonathanccommit";
 
 /*
  * SSH local version string MUST be under 40 characters. Here's a

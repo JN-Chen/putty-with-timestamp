@@ -8,7 +8,7 @@
 
 #define WINCAPI_GLOBAL
 #include "wincapi.h"
-
+#include <windows.h>
 int got_crypt(void)
 {
     static int attempted = FALSE;
@@ -35,5 +35,7 @@ int got_crypt(void)
 
 
 void sysUsecTime(char* str_time){
-
+	SYSTEMTIME sys;
+	GetLocalTime(&sys);
+	sprintf(str_time, "[%02d:%02d:%02d.%03d]", sys.wHour, sys.wMinute, sys.wSecond, sys.wMilliseconds);
 }
