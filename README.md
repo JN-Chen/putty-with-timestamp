@@ -2,7 +2,8 @@
 > record timestamp in putty log  
 
 this is work for linux and windows.
-## linux
+## linux  
+host should support GTK+  
 - configure
 - make
 - run ./putty
